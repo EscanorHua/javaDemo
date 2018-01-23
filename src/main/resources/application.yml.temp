@@ -1,0 +1,7 @@
+#书状结构
+server:
+      port: 8080
+wenhua:
+      msg: zhenshi 666
+      hi: hi.wenhua ${wenhua.msg}${wenhua.num}
+      num: ${random.int}
